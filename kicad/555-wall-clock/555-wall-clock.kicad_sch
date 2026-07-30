@@ -2,9 +2,62 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid c6962304-44b4-4e9b-9aa0-65e75aeb60f4)
+	(uuid "c6962304-44b4-4e9b-9aa0-65e75aeb60f4")
 	(paper "A4")
+	(title_block
+		(title "555 Wall Clock")
+		(date "07/28/2026")
+		(rev "A")
+		(comment 1 "SC-555")
+		(comment 2 "Title Page")
+	)
 	(lib_symbols)
+	(sheet
+		(at 35.56 58.42)
+		(size 26.67 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "fdd35564-d809-4b31-9581-2ec15ea1371c")
+		(property "Sheetname" "Clock Generator"
+			(at 35.56 57.7084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "clock-generator.kicad_sch"
+			(at 35.56 93.2946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "555-wall-clock"
+				(path "/c6962304-44b4-4e9b-9aa0-65e75aeb60f4"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
