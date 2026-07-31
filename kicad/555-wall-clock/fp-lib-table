@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "resistors") (type "KiCad") (uri "/home/jared/proj/parts-library/resistors.pretty") (options "") (descr ""))
+)
